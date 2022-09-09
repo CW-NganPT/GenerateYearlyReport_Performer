@@ -5,7 +5,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>592,737.333333333333</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>655.333333333333,737.333333333333</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ExtractDetailClient_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -67,7 +67,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser WI Details" sap:VirtualizedContainerService.HintSize="434,580.666666666667" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="dd77723f5a9d64865f840b38226bfe29" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Work Items' /&gt;">
+    <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser WI Details" sap:VirtualizedContainerService.HintSize="434,580.666666666667" sap2010:WorkflowViewState.IdRef="BrowserScope_1" InformativeScreenshot="856cb577f622a86c232d9cca3d26c88a" Selector="&lt;html app='chrome.exe' title='ACME System 1 - *' /&gt;">
       <ui:BrowserScope.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
@@ -84,7 +84,7 @@
             </sap:WorkflowViewStateService.ViewState>
             <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Information Detail" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="GetValue_1">
               <ui:GetValue.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9a8d9e3d-0edd-46f4-b880-dad092b7cdf1" InformativeScreenshot="cc179c8f7a88c46d505b8f686583ec32" Selector="&lt;webctrl tag='P' /&gt;">
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="9a8d9e3d-0edd-46f4-b880-dad092b7cdf1" InformativeScreenshot="6716ac883de3d71105b07ee4dcd30915" Selector="&lt;webctrl tag='P' /&gt;">
                   <ui:Target.TimeoutMS>
                     <InArgument x:TypeArguments="x:Int32" />
                   </ui:Target.TimeoutMS>
